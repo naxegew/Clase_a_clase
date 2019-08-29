@@ -11,7 +11,89 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int status) {
-	printf("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+//ejercicio pidiendo si quiere seguir ingresando datos
+int main (void){
+	char respuesta;
+
+	do
+	{
+	printf("desea seguir ingresando numeros:");
+	scanf("%c", &respuesta);
+		if(respuesta != "s" || respuesta !="n")
+		{
+		printf("Error ingrese s o n: %c", &respuesta);
+		scanf("%c", &respuesta);
+		}
+	printf("respuesta correcta");
+	}while(respuesta == "s");
+
+
+
+
 	return 0;
 }
+
+
+
+
+
+
+/* ejercicio con for, pidiendo cantidad primero
+int calculoMaximoyMinimo(int cantidadNumerosSolicitados, int *resultadoMaximo, int *resultadoMinimo);
+
+int main(void) {
+
+	int cantidadNumerosSolicitados;
+	int resultadoMaximo;
+	int resultadoMinimo;
+	// #define CANTIT 5
+
+	printf("\ningrese cantidad de datos: ");
+	scanf("%d", &cantidadNumerosSolicitados);
+
+	calculoMaximoyMinimo(cantidadNumerosSolicitados, &resultadoMaximo, &resultadoMinimo);
+
+
+	printf("\n el numero maximo es: %d ", resultadoMaximo);
+	printf("\n el numero minimo es: %d", resultadoMinimo);
+	return 0;
+}
+int calculoMaximoyMinimo(int cantidadNumerosSolicitados, int *resultadoMaximo, int *resultadoMinimo)
+{
+	int flag = 0;
+	int numeroIngresado;
+	int i;
+	int maximo;
+	int minimo;
+
+	for(i = cantidadNumerosSolicitados; i >=1; i--)
+	{
+
+		printf("\ningrese un numero: ");
+		__fpurge(stdin);
+		scanf("%d", &numeroIngresado);
+		if(flag == 0)
+		{
+			*resultadoMaximo = numeroIngresado;
+			*resultadoMinimo = numeroIngresado;
+			flag=1;
+
+		}
+		if(numeroIngresado>maximo)
+		{
+			*resultadoMaximo = numeroIngresado;
+			printf("nuevo maximo!");
+
+		}
+		if(numeroIngresado<minimo)
+		{
+			*resultadoMinimo = numeroIngresado;
+			printf("nuevo minimo!");
+		}
+
+
+	}
+	return 0;
+}
+
+ */
