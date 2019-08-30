@@ -12,25 +12,34 @@
 #include <stdlib.h>
 
 //ejercicio pidiendo si quiere seguir ingresando datos
+int calculoMaximoyMinimo(int cantidadNumerosSolicitados, int *resultadoMaximo, int *resultadoMinimo);
 int main (void){
 	char respuesta;
+	int numeroIngresado;
+
 
 	do
 	{
-	printf("desea seguir ingresando numeros:");
-	scanf("%c", &respuesta);
-		if(respuesta != "s" || respuesta !="n")
+	printf("\ningrese un numero:");
+	scanf("%d", &numeroIngresado);
+
+	printf("\ndesea seguir ingresando numeros?(1(si) o 0(no))");
+	scanf("%d", &respuesta);
+
+
+		while(respuesta !=  1 && respuesta != 0)
 		{
-		printf("Error ingrese s o n: %c", &respuesta);
-		scanf("%c", &respuesta);
+		printf("\nError ingrese s o n:");
+		scanf("%d", &respuesta);
 		}
 	printf("respuesta correcta");
-	}while(respuesta == "s");
 
+	}while(respuesta == 1);
+return 0;
+}
+int calculoMaximoyMinimo(int *pcantidadNumerosSolicitados, int *resultadoMaximo, int *resultadoMinimo)
+{
 
-
-
-	return 0;
 }
 
 
