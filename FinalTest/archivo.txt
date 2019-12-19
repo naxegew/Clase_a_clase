@@ -1,0 +1,21 @@
+id,int,float,char,string
+1,2,15739.00,s,Exo Smart E16 Plus x5-8350 Atom 4Gb 32Gb 14 Win10
+2,2,17529.00,s,Bangho Zero M4 i1 F Celeron 3Gb Ssd 240Gb 14
+5,2,17679.00,s,Exo Smart E24S Celeron 4Gb 500Gb 14
+9,2,22089.00,s,Asus X540M Celeron 4Gb 500Gb 15.6 Win10
+10,2,22729.00,s,Lenovo IdeaPad S145-14IGM Celeron 4Gb 500Gb 14 Win10
+11,2,24469.00,s,Lenovo V130-15IGM Pentium 4Gb 500Gb 15.6
+17,2,31169.00,s,Hp 250 G7 Core i3 4Gb 1Tb 15.6
+18,2,34659.00,s,Hp 250 G7 Core i3 12Gb Ssd 240Gb 15.6
+19,2,40479.00,s,Lenovo V330-15IKB Core i5 8Gb Ssd M.2 240Gb 14
+20,2,57889.00,s,Dell Latitude Core i5 8Gb 1Tb 15.6 Win10 Pro
+3,1,13371.00,n,Gigabyte Amd Apu 1.4 GA E2 2500N DDR3 4 Gb 1600 Mhz
+4,1,14861.00,n,FM2 Msi A68HM E33 Amd Apu A8 7680 3.5 Ghz FM2 DDR3 4 Gb 1600 Mhz
+6,1,17962.00,n,AM4 Msi A320M PRO M2 V2 Amd Apu A10 9700 3.8 Ghz AM4 DDR4 4 Gb 2400 Mhz
+7,1,18142.00,n,AM4 Msi A320M PRO M2 V2 Amd Ryzen 3 2200G 3.7 Ghz Vega8 AM4 DDR4 4 Gb 2400 Mhz
+8,1,21136.00,d,1151 8va Gigabyte GA H310M H Intel Core i3 8100 3.6 Ghz Coffee Lake 1151 DDR4 4 Gb 2400 Mhz
+12,1,22275.00,d,1151 8va Gigabyte GA H310M H Intel Core i3 8100 3.6 Ghz Coffee Lake 1151 DDR4 4 Gb 2400 Mhz
+13,1,45090.00,d,1151 8va Gigabyte GA H310M H Intel Core i7 9700F 4.7 Ghz Coffee Lake 1151 Sin Video DDR4 8 Gb 2400 Mhz
+14,1,68399.00,d,AM4 Msi A320M PRO M2 V2 Amd Ryzen 5 3400G 4.2 Ghz Vega11 AM4 DDR4 16 Gb 2666 Mhz
+15,1,67679.00,d,AM4 Msi A320M PRO M2 V2 Amd Ryzen 5 2600 3.9 Ghz AM4 DDR4 16 Gb 2666 Mhz
+16,1,168312.00,d,1151 9na Msi Z390 ACE Intel Core i9 9900K 5.0 Ghz Coffee Lake 1151 Sin Cooler DDR4 32 Gb 2x16 2666 Mhz

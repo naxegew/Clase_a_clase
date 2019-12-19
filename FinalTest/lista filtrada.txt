@@ -1,0 +1,11 @@
+id,int,float,char,string
+3,1,13371.00,n,Gigabyte Amd Apu 1.4 GA E2 2500N DDR3 4 Gb 1600 Mhz
+4,1,14861.00,n,FM2 Msi A68HM E33 Amd Apu A8 7680 3.5 Ghz FM2 DDR3 4 Gb 1600 Mhz
+6,1,17962.00,n,AM4 Msi A320M PRO M2 V2 Amd Apu A10 9700 3.8 Ghz AM4 DDR4 4 Gb 2400 Mhz
+7,1,18142.00,n,AM4 Msi A320M PRO M2 V2 Amd Ryzen 3 2200G 3.7 Ghz Vega8 AM4 DDR4 4 Gb 2400 Mhz
+8,1,21136.00,n,1151 8va Gigabyte GA H310M H Intel Core i3 8100 3.6 Ghz Coffee Lake 1151 DDR4 4 Gb 2400 Mhz
+12,1,22275.00,n,1151 8va Gigabyte GA H310M H Intel Core i3 8100 3.6 Ghz Coffee Lake 1151 DDR4 4 Gb 2400 Mhz
+13,1,45090.00,n,1151 8va Gigabyte GA H310M H Intel Core i7 9700F 4.7 Ghz Coffee Lake 1151 Sin Video DDR4 8 Gb 2400 Mhz
+14,1,68399.00,n,AM4 Msi A320M PRO M2 V2 Amd Ryzen 5 3400G 4.2 Ghz Vega11 AM4 DDR4 16 Gb 2666 Mhz
+15,1,67679.00,n,AM4 Msi A320M PRO M2 V2 Amd Ryzen 5 2600 3.9 Ghz AM4 DDR4 16 Gb 2666 Mhz
+16,1,168312.00,n,1151 9na Msi Z390 ACE Intel Core i9 9900K 5.0 Ghz Coffee Lake 1151 Sin Cooler DDR4 32 Gb 2x16 2666 Mhz
